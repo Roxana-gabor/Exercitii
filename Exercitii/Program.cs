@@ -16,8 +16,11 @@ namespace Exercitii
             //ExercitiileBasic ex2 = new ExercitiileBasic();
             //ex2.exercitiul2();
 
-            ExercitiileBasic ex3 = new ExercitiileBasic();
-            ex3.exercitiul3();
+            //ExercitiileBasic ex3 = new ExercitiileBasic();
+            //ex3.exercitiul3();
+
+            ExercitiileBasic ex4 = new ExercitiileBasic();
+            ex4.exercitiul4();
 
 
 

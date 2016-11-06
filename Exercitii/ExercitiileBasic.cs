@@ -11,20 +11,20 @@ namespace Exercitii
         // exercitiul 1 C# Basic Declaration
         public void exercitiul1()
         {
-            System.Console.WriteLine("  Exercitiul 1: Afiseaza Hello si numele tau pe 2 linii diferite.");
-            System.Console.WriteLine("   Hello");
-            System.Console.WriteLine("   Gabor Roxana-Mihaela");
+            Console.WriteLine("  Exercitiul 1: Afiseaza Hello si numele tau pe 2 linii diferite.");
+            Console.WriteLine("   Hello");
+            Console.WriteLine("   Gabor Roxana-Mihaela");
             
         }
 
         //exercitiul 2 
         public void exercitiul2()
         {
-            System.Console.WriteLine("    Exercitiul 2: Afiseaza suma a 2 numere.");
+            Console.WriteLine("    Exercitiul 2: Afiseaza suma a 2 numere.");
             int a = 4, b = 7;
             int suma = 0;
             suma = a + b;
-            System.Console.WriteLine("Suma a 2 numere este:  " + suma);
+            Console.WriteLine("Suma a 2 numere este:  " + suma);
            
         }
 
@@ -36,6 +36,15 @@ namespace Exercitii
             impartire = x / y;
             Console.WriteLine("Rezultatul impartirii este:  " +impartire);
 
+        }
+
+        public void exercitiul4()
+        {
+            Console.WriteLine("     Exercitiul 4: Afiseaza rezultatul unor operatii specifie");
+            Console.WriteLine(-1 +( 4 * 6));
+            Console.WriteLine((35 + 5) % 7);
+            Console.WriteLine(14 + ((-4 * 6) / 11));
+            Console.WriteLine(2+ (15 / 6 * 1) - (7 % 2));
         }
 
 
