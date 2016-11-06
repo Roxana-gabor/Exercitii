@@ -10,8 +10,12 @@ namespace Exercitii
     {
         static void Main(string[] args)
         {
-            ExercitiileBasic ex1 = new ExercitiileBasic();
-            ex1.exercitiu1();
+            //ExercitiileBasic ex1 = new ExercitiileBasic();
+            //ex1.exercitiu1();
+
+            ExercitiileBasic ex2 = new ExercitiileBasic();
+            ex2.exercitiu2();
+
            
 
 
