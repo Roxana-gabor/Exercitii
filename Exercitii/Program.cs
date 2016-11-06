@@ -11,12 +11,16 @@ namespace Exercitii
         static void Main(string[] args)
         {
             //ExercitiileBasic ex1 = new ExercitiileBasic();
-            //ex1.exercitiu1();
+            //ex1.exercitiul1();
 
-            ExercitiileBasic ex2 = new ExercitiileBasic();
-            ex2.exercitiu2();
+            //ExercitiileBasic ex2 = new ExercitiileBasic();
+            //ex2.exercitiul2();
 
-           
+            ExercitiileBasic ex3 = new ExercitiileBasic();
+            ex3.exercitiul3();
+
+
+
 
 
             Console.ReadKey();
