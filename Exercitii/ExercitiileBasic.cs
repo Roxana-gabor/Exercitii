@@ -47,6 +47,20 @@ namespace Exercitii
             Console.WriteLine(2+ (15 / 6 * 1) - (7 % 2));
         }
 
+        public void exercitiul5()
+        {
+            Console.WriteLine("      Exercitiul 5: Interschimba 2 numere date.");
+            int nr1, nr2, schimba;
+            Console.WriteLine("  Care este primul numar?" );
+            nr1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("  Care este al doilea numar?   ");
+            nr2 = int.Parse(Console.ReadLine());
+            schimba = nr1;
+            nr1 = nr2;
+            nr2 = schimba;
+            Console.WriteLine("Dupa schimbare primul numar este: "+nr1);
+            Console.WriteLine("Dupa schimbare al doilea numar este: "+nr2);
+        }
 
     }
 }
