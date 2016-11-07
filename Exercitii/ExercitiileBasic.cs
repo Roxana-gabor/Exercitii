@@ -75,8 +75,23 @@ namespace Exercitii
             int inmultire = 0;
             inmultire = c * d * f;
             Console.WriteLine("{0} X {1} X {2} = "+inmultire,c,d,f);
-
+        }
+        public void exercitiul7()
+        {
+            Console.WriteLine("  Exercitiul 7: Aveti doua nr date de la tastatura , faceti celel cinci operatii +,-,*,/,mod");
+            int a1, a2;
+            Console.WriteLine("  Dati primul numar:" );
+            a1 = int.Parse(Console.ReadLine());
+            Console.WriteLine(" Dati al doilea numar: ");
+            a2 = int.Parse(Console.ReadLine());
+            Console.WriteLine(" ");
+            Console.WriteLine(a1+a2);
+            Console.WriteLine(a1-a2);
+            Console.WriteLine(a1*a2);
+            Console.WriteLine(a1/a2);
+            Console.WriteLine(a1%a2);
 
         }
     }
+
 }
