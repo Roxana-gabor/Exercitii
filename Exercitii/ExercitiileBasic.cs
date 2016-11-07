@@ -62,5 +62,21 @@ namespace Exercitii
             Console.WriteLine("Dupa schimbare al doilea numar este: "+nr2);
         }
 
+        public void exercitiul6()
+        {
+            Console.WriteLine("    Exercitiul 6: Afiseaza inmultirea a trei numere date");
+            int c, d, f;
+            Console.WriteLine("Dati primul numar: ");
+            c = int.Parse(Console.ReadLine());
+            Console.WriteLine("Dati al doilea numar");
+            d = int.Parse(Console.ReadLine());
+            Console.WriteLine("Dati al treilea numar ");
+            f = int.Parse(Console.ReadLine());
+            int inmultire = 0;
+            inmultire = c * d * f;
+            Console.WriteLine("{0} X {1} X {2} = "+inmultire,c,d,f);
+
+
+        }
     }
 }
